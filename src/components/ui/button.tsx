@@ -9,6 +9,11 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        studio: "studio-button",
+        olive: "studio-button studio-button-olive",
+        editorial: "studio-button studio-button-outline",
+        filter: "studio-filter",
+        navigation: "studio-nav-link",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
